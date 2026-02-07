@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+  color: hsl(295, 74%, 28%);
+  border-style: double;
+  border-width: 5px;
+  border-color: rgb(97, 143, 143);
+}
+h2 {
+  color: hsl(135, 93%, 16%);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-shadow: 2px 2px 5px red;
+}
+h3 {
+  color: hsl(246, 93%, 16%);
+  text-decoration-line: overline underline;
+  text-decoration-style: dotted;
+}
+nav a:hover {
+    font-size: 150%;
+    font-family: monospace;
+}
+p {
+    color: rgb(62, 66, 99);
+}
+body {
+    background-color: steelblue;
+}
+p.assignment-desc {
+    width: 65%;
+}
+.assignment-desc{
+    font-weight: bold;
+}
+.project-desc{
+    color: rgb(228, 141, 10);
+}
+#footer{
+    color: purple;
+    font-weight: bold;
+}
+aside ul {
+    text-decoration: none;
+    color: rgb(65, 5, 52);
+    list-style-image: linear-gradient(to left bottom, red, blue);
+
+}
+
+a[href="about-me.html"] {
+    background-color: rgb(98, 102, 105);
+    padding: 1rem;
+}
+img {
+    border-style: dashed;
+    border-color: orange;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
