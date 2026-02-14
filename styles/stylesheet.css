@@ -1,13 +1,20 @@
 * {
     box-sizing: border-box;
 }
+.bungee-inline-regular {
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 h1 {
   color: hsl(295, 74%, 28%);
+  font-family: Bungee Inline;
   border-style: double;
   border-width: 5px;
   border-color: rgb(97, 143, 143);
 }
 h2 {
+  font-family: Bungee Inline;
   color: hsl(135, 93%, 16%);
   text-decoration-line: underline;
   text-decoration-style: wavy;
@@ -15,6 +22,7 @@ h2 {
 }
 h3 {
   color: hsl(246, 93%, 16%);
+  font-family: Bungee Inline;
   text-decoration-line: overline underline;
   text-decoration-style: dotted;
 }
@@ -33,6 +41,25 @@ p.assignment-desc {
 }
 .assignment-desc{
     font-weight: bold;
+}
+.container {
+    display:flex;
+    flex-direction: row;
+}
+.completed-projects {
+    background: yellow;
+    justify-content:left;
+}
+.future-projects {
+    background: orange;
+    justify-content: flex-end;
+    align-items:end;
+}
+.sidebar{
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    align-items:end;
+    background: gray;
 }
 .project-desc{
     color: rgb(228, 141, 10);
