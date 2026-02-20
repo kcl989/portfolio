@@ -26,9 +26,15 @@ h3 {
   text-decoration-line: overline underline;
   text-decoration-style: dotted;
 }
+nav a {
+    transition: all 2s ease;
+}
 nav a:hover {
-    font-size: 150%;
-    font-family: monospace;
+    font-size: 125%;
+    font-family: papyrus;
+}
+h1 {
+    transition: border 3s 3s;
 }
 p {
     color: rgb(62, 66, 99);
@@ -74,7 +80,6 @@ aside ul {
     list-style-image: linear-gradient(to left bottom, red, blue);
 
 }
-
 a[href="about-me.html"] {
     background-color: rgb(98, 102, 105);
     padding: 1rem;
@@ -85,4 +90,19 @@ img {
     border-radius: 8px;
     max-width: 100%;
     height: auto;
+}
+li:nth-child(odd) {
+    color: gold;
+}
+h1 {
+    transition: order 4s ease-in 1s;
+}
+h1:hover {
+    background-color: rgb(228, 141, 10);
+}
+.about-me {
+    transition: all 2s ease;
+}
+.about-me:hover {
+    background-color: rgb(228, 141, 10);
 }
